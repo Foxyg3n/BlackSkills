@@ -1,0 +1,17 @@
+name: BlackSkills
+version: '${project.version}'
+main: me.foxyg3n.blackskills.BlackSkills
+api-version: '1.20'
+prefix: BlackSkills
+authors: [Foxyg3n]
+description: Skills for BlackMc
+softdepend: [ Vault ]
+
+commands:
+  skills:
+    aliases: [ "umiejetnosci" ]
+    description: "Main skills command for GUI and utils"
+  skilltest:
+    description: "Test command for BlackSkills plugin"
+  skilltest2:
+    description: "Test 2 command for BlackSkills plugin"
